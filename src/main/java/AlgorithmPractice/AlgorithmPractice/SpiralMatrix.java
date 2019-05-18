@@ -8,6 +8,15 @@ import org.apache.log4j.Logger;
 
 /*
  * Problem: https://leetcode.com/problems/spiral-matrix/
+ * 
+ * Notes:
+ * 	- Draw out the matrix and figure out the bounds
+ *  - keeping track of direction, position, and boundaries was the trickiest. 
+ *  
+ * Analysis: 
+ * 	- O(N^2) solution
+ *  - Slow(er) memory access by jumping through array in this order
+ * 
  */
 public class SpiralMatrix {
 	
